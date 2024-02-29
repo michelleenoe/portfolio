@@ -55,7 +55,7 @@
 
 
 .section {
-	min-height: 90vh;
+	min-height: vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -518,3 +518,22 @@ nav.navbar .social-links a:hover i {
 		transform: translateX(-50%) translateY(-10px);
 	}
 }
+
+#scrollToTopBtn {
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #bcb7b7;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+  }
+  #scrollToTopBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
