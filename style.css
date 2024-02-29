@@ -524,16 +524,101 @@ nav.navbar .social-links a:hover i {
 	bottom: 20px;
 	right: 30px;
 	z-index: 99;
-	font-size: 18px;
-	border: none;
+	font-size: 20px;
 	outline: none;
-	background-color: #bcb7b7;
-	color: rgb(0, 0, 0);
+	background-color: black;
+	color: rgb(255, 255, 255);
 	cursor: pointer;
 	padding: 15px;
-	border-radius: 4px;
+	border-radius: none;
+	border:none;
   }
   #scrollToTopBtn:hover {
-	background-color: #555; /* Add a dark-grey background on hover */
+	background-color: #ffffff; 
+	color:rgb(0, 0, 0);
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+  }
+  footer a, footer p {
+    margin: 0; 
+    padding: 0; 
+  }
+
+
+  @media screen and (max-width: 768px) {
+	nav.navbar {
+	  flex-direction: column;
+	  padding: 20px 0;
+	  padding-bottom:5rem;
+	}
+  
+	nav.navbar ul {
+	  flex-direction: row;
+	  align-items: center;
+	}
+  body {
+	margin-top:10rem;
+  }
+
+	.social-links {
+	  margin-top: 20px;
+	}
+  
+	.social-links a {
+	  margin: 0 5px; 
+	}
+  
+h1 {
+	font-size: 18px;
+}
+h2 {
+	font-size: 16px;
+}
+.additional-skills li {
+	font-size: 14px;
+}
+	footer {
+	  flex-direction: column;
+	  text-align: center;
+	}
+  
+	footer a, footer p {
+	  margin-bottom: 10px; 
+	}
+  
+
+	.profile-pic {
+	  width: 100%; 
+	  max-width: 250px; 
+	  height: auto;
+	  margin: 0 auto; 
+	}
+  
+
+	#gallery ul li {
+	  width: 80%; 
+	  margin: 20px auto; 
+	}
+  
+
+
+	.port h1, p{
+	font-size: 10px;
+	}
+	.port {
+		align-items: center;
+	}
+	.scroll-down {
+		display: none;
+	}
+	.skill {
+		width:15.5em;
+	}
+	
   }
   
